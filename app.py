@@ -1,4 +1,5 @@
 import streamlit as st
+from PROGRAM import naive_search, kmp_search, rabin_karp
 
 st.title("Comparative Analysis of Naive, Rabin-Karp, and KMP Algorithms")
 text = st.text_input("Enter Text")
